@@ -7,5 +7,18 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  console.log("Hello Rigo from the console!");
+  var pron = ["the", "our"];
+  var adj = ["great", "big"];
+  var no = ["jogger", "racoon"];
+
+  const Name = () => {
+    for (const p of pron) {
+      for (const a of adj) {
+        for (const n of no) {
+          console.log(p + a + n + ".com");
+        }
+      }
+    }
+  };
+  Name();
 };
